@@ -19,4 +19,7 @@ Python, Gemini API (embeddings + text generation), python-dotenv
 3. python rag.py
 
 ## What I learned
-(write 2-3 lines in your own words)
+I built a RAG app that splits a notes file into chunks, embeds them, and finds the
+best matches for a question using cosine similarity. I learned to keep my API key in
+a .env file so it never reaches GitHub, and to retry when the Gemini API returns
+a 503 error.
